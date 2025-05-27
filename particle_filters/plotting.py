@@ -8,7 +8,7 @@ from matplotlib.axes import Axes
 from recursive_filters.naive_recursive_fiiter import Filter, NaiveFilter
 
 matplotlib.use("TkAgg")
-plt.rcParams.update({"font.size": 7})
+plt.rcParams.update(())
 plt.style.use('https://github.com/dhaitz/matplotlib-stylesheets/raw/master/pitayasmoothie-dark.mplstyle')
 
 
